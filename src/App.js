@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
-import Project from './components/Project';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       ></Nav>
         <main>
           <ContactForm></ContactForm>
-          <Project currentCategory={currentCategory}></Project>
+          <Portfolio currentCategory={currentCategory}></Portfolio>
           <About></About>
           <Footer></Footer>
         </main> 
