@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Project from './components/Project';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <ContactForm></ContactForm>
           <Project currentCategory={currentCategory}></Project>
           <About></About>
+          <Footer></Footer>
         </main> 
     </div>
   );
