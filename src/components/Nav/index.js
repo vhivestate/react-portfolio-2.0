@@ -1,14 +1,13 @@
-import React, { useState } from "react";
+import React from 'react';
 import { capitalizeFirstLetter } from "../../utils/helper";
 
 
-function Nav() {
-    const [categories] = useState([
-        { name: 'Portfolio', description: '' },
-        { name: 'Resume', description: '' },
-      ]); 
-
-      const [currentCategory, setCurrentCategory] = useState(categories[0]);
+function Nav(props) {
+    const {
+      categories = [],
+      setCurrentCategory,
+      currentCategory,
+    } = props;
 
       
   return (
@@ -31,9 +30,12 @@ function Nav() {
             <span>Contact</span>
           </li>
           {categories.map((category) => (
-            <li className={`mx-1 ${
+            <li
+              className={`mx-1 ${
                 currentCategory.name === category.name && 'navActive'
-                }`} key={category.name}>
+                }`}
+              key={category.name}
+            >
               <span
                 onClick={() => {
                   setCurrentCategory(category)

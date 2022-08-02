@@ -8,13 +8,8 @@ import Portfolio from './components/Portfolio';
 
 function App() {
   const [categories] = useState([
-    {
-      name: 'About',
-      description: '',
-    },
     { name: 'Portfolio', description: '' },
     { name: 'Resume', description: '' },
-    { name: 'Contact', description: '' },
   ]); 
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
