@@ -16,8 +16,6 @@ function Portfolio() {
       <img src={Weather} alt=''></img>
       <img src={Appt} alt=''></img>
       <img src={Team} alt=''></img>
-
-
     </section>
   );
 }
