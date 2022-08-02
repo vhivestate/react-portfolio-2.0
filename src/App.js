@@ -4,6 +4,7 @@ import About from './components/About';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import ResumeCom from './components/Resume'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <>
             <Portfolio currentCategory={currentCategory}></Portfolio>
             <About></About>
+            <ResumeCom></ResumeCom>
             <Footer></Footer>
           </>
         ) : (
