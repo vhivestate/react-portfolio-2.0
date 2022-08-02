@@ -3,6 +3,14 @@ import React from 'react';
 
 import styled from 'styled-components';
 
+function ResumeFn() {
+    return (
+      <section id="resume">
+        <h1 >My skills</h1>
+      </section>
+    );
+  }
+
 const Title = styled.h1`
   font-size: 1.5em;
   text-align: center;
@@ -15,4 +23,4 @@ render(
     </Title>
 );
 
-export default Title
+export default ResumeFn

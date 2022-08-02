@@ -13,7 +13,7 @@ function Portfolio() {
 
 
   return (
-    <section>
+    <section id='portfolio'>
       <h1>My Projects:</h1>
       <div>
       <h1>{QuizLink}</h1>

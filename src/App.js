@@ -10,7 +10,7 @@ import ResumeCom from './components/Resume'
 function App() {
   const [categories] = useState([
     { name: 'Portfolio', description: '' },
-    { name: 'Resume', description: '' },
+    { name: 'Resumesss', description: '' },
   ]); 
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <Nav
-          categories={categories}
+          // categories={categories}
           setCurrentCategory={setCurrentCategory}
           currentCategory={currentCategory}
           contactSelected={contactSelected}
