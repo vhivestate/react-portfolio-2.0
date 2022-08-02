@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <section>
       <h1>My Projects:</h1>
-      <img src={photo}></img>
+      <img src={photo} alt=''></img>
     </section>
   );
 }
