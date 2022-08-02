@@ -16,6 +16,14 @@ li {
   list-style: none;
 }
 
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+nav {
+  font-size: 25px;
+}
 
 nav a:hover {
   text-decoration: underline;
