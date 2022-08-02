@@ -1,19 +1,10 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from "../../utils/helper";
-
+import React from 'react';
 
 function Nav(props) {
     const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
         contactSelected,
         setContactSelected
       } = props;
-
-    useEffect(() => {
-        document.title = capitalizeFirstLetter(currentCategory.name);
-      }, [currentCategory]);
 
   return (
     <header>
@@ -29,21 +20,22 @@ function Nav(props) {
               About
             </a>
           </li>
+
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
           <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
 
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-          <a data-testid="about" href="#portfolio" onClick={() => setContactSelected(false)}>
-              Portfolio
-            </a>
-          </li>
+            <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+            <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected (false)}>
+                Portfolio
+                </a>
+            </li>
 
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-          <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
-              Resume
-            </a>
-          </li>
+                <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                <a data-testid="resume" href="#resume" onClick={() => setContactSelected (false)}>
+                    Resume
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
