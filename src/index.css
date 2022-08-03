@@ -14,11 +14,11 @@ code {
     monospace;
 }
 
-.flex-row {
+/* .flex-row {
 padding: 20px;
 background-color: black;
 
-}
+} */
 
 a:link { text-decoration: none; }
 
@@ -28,6 +28,16 @@ li{
 }
 li a {
   color: #FFCF33;
+  padding: 19px;
+
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  background-color: black;
 }
 
 .navigation {
@@ -57,19 +67,17 @@ nav  li {
   text-align: center;
 }
 
+
 /* Footer */
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
+footer {
+  background-color: black;
+  padding: 10px;
 }
-
 .socialMediaIcons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  font-size: 50px;
+  font-size: 35px;
   color: #FFCF33;
 }
 
@@ -117,7 +125,7 @@ nav  li {
   background-position: center;
 	background-size: cover;
   background-position: bottom;
-  height: 700px;
+  height: 800px;
   max-width: 100;
   text-align: center;
 

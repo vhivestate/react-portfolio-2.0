@@ -7,7 +7,7 @@ import {FaGithub, FaTwitter, FaDiscord, FaLinkedin } from 'react-icons/fa'
 function Footer() {
     
   return (
-    <section>
+    <footer>
   
       <div className='socialMediaIcons'>
       <a href="https://github.com/vhivestate/">
@@ -23,7 +23,7 @@ function Footer() {
       <FaLinkedin className='socialMediaIcons'/> </a>
 
       </div>
-    </section>
+    </footer>
   )
 }
 export default Footer
