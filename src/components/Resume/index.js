@@ -1,5 +1,7 @@
 // import { render } from '@testing-library/react';
 import React from 'react';
+import ResumePdf from '../../assets/vhivestate-resume.pdf'
+
 
 // import styled from 'styled-components';
 
@@ -13,6 +15,9 @@ function Resume() {
         <h3 > Node.js </h3>
         <h3 > React </h3>
 
+        <a href={ResumePdf} download="vhivestate-resume.pdf">
+            Download Resume
+        </a>
       </section>
     );
   }
