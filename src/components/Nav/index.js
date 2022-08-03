@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../index.css'
 
 function Nav(props) {
     const {
@@ -7,13 +8,13 @@ function Nav(props) {
       } = props;
 
   return (
-    <header>
+    <header className=''>
         <h2>
             <a href='/'>
                 Valeria Garcia
             </a>
         </h2>
-        <nav>
+        <nav className='navigation'>
         <ul className="flex-row">
           <li className="mx-2">
           <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
