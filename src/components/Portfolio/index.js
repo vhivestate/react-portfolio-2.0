@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Quiz from '../../assets/photo/codeQuiz.png'
 import Schedule from '../../assets/photo/work-schedule.png'
 import Weather from '../../assets/photo/weather.png'

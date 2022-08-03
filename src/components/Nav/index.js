@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'reactstrap';
+// import { Button } from 'reactstrap';
 
 
 function Nav(props) {
@@ -13,7 +13,7 @@ function Nav(props) {
       } = props;
 
   return (
-    <div>
+    <div id="navbar">
         <nav className='navigation'>
         <ul className="flex-row">
           <li className="mx-2">

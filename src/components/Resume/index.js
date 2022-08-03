@@ -1,12 +1,12 @@
 // import { render } from '@testing-library/react';
 
 import ResumePdf from '../../assets/vhivestate-resume.pdf'
-import ResumePng from '../../assets/resume.png'
+// import ResumePng from '../../assets/resume.png'
 
-import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helper';
+import React from 'react';
+// import { validateEmail } from '../../utils/helper';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'reactstrap';
+// import { Button } from 'reactstrap';
 
 
 

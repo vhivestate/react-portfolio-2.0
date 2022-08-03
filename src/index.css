@@ -14,20 +14,32 @@ code {
     monospace;
 }
 
-li {
+.flex-row {
+padding: 20px;
+background-color: black;
+
+}
+
+a:link { text-decoration: none; }
+
+li{
   list-style: none;
+
+}
+li a {
+  color: #FFCF33;
 }
 
-h2 {
-  text-align: center;
-  font-size: 40px;
+.navigation {
+  position: sticky;
+	position: fixed;
+	top: 0; 
 }
-
 
 nav {
-  font-size: 25px;
-  text-decoration: none;
-
+  font-size: 22px;
+  text-align: center;
+  color: #FFCF33;
 }
 
 nav a:hover {
@@ -36,7 +48,10 @@ nav a:hover {
 
 nav  li {
   cursor: pointer;
+  
 }
+
+/* contact form */
 
 .contactForm {
   text-align: center;
@@ -55,6 +70,7 @@ nav  li {
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-size: 50px;
+  color: #FFCF33;
 }
 
 /* About Section */
