@@ -7,7 +7,9 @@ import { Button } from 'reactstrap';
 function Nav(props) {
     const {
         contactSelected,
-        setContactSelected
+        setContactSelected,
+        setResumeSelected,
+        resumeSelected,
       } = props;
 
   return (
@@ -30,8 +32,8 @@ function Nav(props) {
                 </a>
             </li>
 
-                <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                <a data-testid="resume" href="#resume" onClick={() => setContactSelected (false)}>
+                <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
+                <a data-testid="resume" href="#resume" onClick={() => setResumeSelected (true)}>
                     Resume
                     </a>
                 </li>

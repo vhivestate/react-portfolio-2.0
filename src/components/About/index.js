@@ -2,6 +2,7 @@ import React from 'react';
 import Photo from '../../assets/photo/portfolio.jpg'
 import '../../index.css'
 
+
 function About() {
 
   return (
