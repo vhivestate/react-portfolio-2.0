@@ -13,8 +13,9 @@ function Portfolio() {
 
 
   return (
-    <section id='portfolio'>
-      <h1>My Projects:</h1>
+    <section>
+        <h1>My Projects:</h1>
+      <div id='portfolio'>
       <div>
       <h1>{QuizLink}</h1>
       <img src={Quiz} alt='Quiz screenshot'></img>
@@ -39,7 +40,7 @@ function Portfolio() {
       <h1>{QuizLink}</h1>
       <img src={Team} alt=''></img>
       </div>
-
+      </div>
     </section>
   );
 }
