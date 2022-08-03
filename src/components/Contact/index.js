@@ -43,16 +43,16 @@ function ContactForm() {
           <h1>Contact me</h1>
           <form action="" id="contact-form" onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="name">Name:</label>
-              <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+              <label htmlFor="name"></label>
+              <input type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name"/>
             </div>
             <div>
-              <label htmlFor="email">Email address:</label>
-              <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+              <label htmlFor="email"></label>
+              <input type="email" name="email" defaultValue={email} onBlur={handleChange} placeholder="Email Address"/>
             </div>
             <div>
-              <label htmlFor="message">Message:</label>
-              <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
+              <label htmlFor="message"></label>
+              <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} placeholder="Your message"/>
             </div>
             {errorMessage && (
                 <div>
