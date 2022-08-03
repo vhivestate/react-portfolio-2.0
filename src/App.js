@@ -4,7 +4,8 @@ import About from './components/About';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import PortfolioCom from './components/Portfolio';
-import Resume from './components/Resume'
+import Resume from './components/Resume';
+import Header from './components/Header'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div>
+    <Header></Header>
       <Nav
           contactSelected={contactSelected}
           setContactSelected={setContactSelected}
