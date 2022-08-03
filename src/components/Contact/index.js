@@ -40,7 +40,7 @@ function ContactForm() {
 
     return (
         <section className='contactForm'>
-          <h1>Contact me</h1>
+          <h1>Email Me:</h1>
           <form action="" id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name"></label>
