@@ -1,27 +1,27 @@
 import React from 'react'
 import '../../index.css'
-import {FaGithub, FaTwitter, FaEnvelopeSquare } from 'react-icons/fa'
+import {FaGithub, FaTwitter, FaDiscord, FaLinkedin } from 'react-icons/fa'
 // import { render } from '@testing-library/react';
 // import styled from 'styled-components';
 
 function Footer() {
-//     const Title = styled.h1`
-//   font-size: 1.5em;
-//   text-align: center;
-//   color: palevioletred;
-// `;
-// render(
-//     <Title>
-//     Connect with me
-//     </Title>
-// );
+    
   return (
     <section>
   
       <div className='socialMediaIcons'>
-        <FaGithub className='socialMediaIcons'/>
-        <FaTwitter className='socialMediaIcons'/>
-        <FaEnvelopeSquare className='socialMediaIcons'/>
+      <a href="https://github.com/vhivestate/">
+      <FaGithub className='socialMediaIcons'/></a>
+
+      <a href="https://twitter.com/vhivestate/"> 
+      <FaTwitter className='socialMediaIcons'/></a>
+
+      <a href="https://discord.com/channels/950224023973933116/950224023973933121/">
+      <FaDiscord className='socialMediaIcons'/> </a>
+
+      <a href="https://www.linkedin.com/in/valeriagarcia00974/">
+      <FaLinkedin className='socialMediaIcons'/> </a>
+
       </div>
     </section>
   )
