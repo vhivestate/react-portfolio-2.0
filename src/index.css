@@ -78,14 +78,13 @@ nav  li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
+  text-align: center;
+ padding-top: 50px;
 }
 
 .aboutSec img {
     max-width: 80%;
     height: Auto;
-    justify-content: center;
-
 }
 
 .bio {
