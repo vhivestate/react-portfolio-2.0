@@ -6,7 +6,7 @@ import '../../index.css'
 function About() {
 
   return (
-    <section className='aboutSec'>
+    <section id="abtSec" className='aboutSec'>
             <div className='headshot'>
             <img src={Photo} alt='V headshot'></img>
             </div>
