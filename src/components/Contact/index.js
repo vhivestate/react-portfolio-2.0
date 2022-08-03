@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helper';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'reactstrap';
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -59,7 +61,11 @@ function ContactForm() {
                     <p className="error-text">{errorMessage}</p>
                 </div>
                 )}
-            <button type="submit">Submit</button>
+            <Button     
+            color="success"
+            outline
+            size="lg"
+            type="submit">Submit</Button>
           </form>
         </section>
         );
