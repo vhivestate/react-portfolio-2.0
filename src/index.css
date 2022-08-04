@@ -99,18 +99,24 @@ footer {
 }
 
 .aboutSec img {
-    max-width: 60%;
+    max-width: 70%;
     height: Auto;
     padding-bottom: 40px;
 }
 
 .bio {
-  text-align: center;
+  /* text-align: center; */
   color: #2c2a2a;
-  max-width: 40%;
+  max-width: 30%;
   padding-bottom: 30px;
-  font-size: ;
-  
+  font-size: 30px;
+}
+#intro{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  font-size: 40px;
+  padding-top: 30px;
 }
 
 /* portfolio  */

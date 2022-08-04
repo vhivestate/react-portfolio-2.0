@@ -15,16 +15,14 @@ function About() {
             <a href="#intro">
                 <BsArrowDownCircle className='headerIcon'/> </a>
         </header>
-       
+        <h1 id='intro'>Meet the Developer</h1>
     <section id="abtSec" className='aboutSec'>
-    <h1 id='intro'>Meet the Developer</h1>
             <div className='headshot'>
             <img src={Photo} alt='V headshot'></img>
             </div>
       <div id='about' className='bio'>
-        <h3>About Me:</h3>
             <p>
-                Full Stack Developer based out of Salt Lake City, UT. Currently attending the University of Utah. My current role is Senior Liability Specialist for FedEx.
+                My name is Valeria Garcia. I'm a Full Stack Developer based out of Salt Lake City, UT. Currently attending the University of Utah. My current role is Senior Liability Specialist for FedEx.
             </p>
             </div>
     </section>
