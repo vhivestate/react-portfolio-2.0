@@ -12,14 +12,14 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
   return (
-    <div>
-    <Header>
-      setArrowclicked=
-    </Header>
-      <Nav
+    <>
+          <Nav
           contactSelected={contactSelected}
           setContactSelected={setContactSelected}
       ></Nav>
+    <Header>
+    </Header>
+
         <main>
         {!contactSelected ? (
           <>
@@ -34,7 +34,7 @@ function App() {
           <Footer ></Footer>
           </div>
         </main> 
-    </div>
+    </>
   );
 }
 

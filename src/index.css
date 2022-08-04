@@ -40,10 +40,10 @@ li a {
   background-color: black;
 }
 
-.navigation {
-  position: sticky;
-	position: fixed;
-	top: 0; 
+#navbar {
+ position: sticky;
+ top: 0;
+ height: 50px;
 }
 
 nav {
