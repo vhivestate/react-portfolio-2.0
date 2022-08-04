@@ -5,7 +5,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-// import Hero from './components/Header'
 
   function App() {
     const [currentPage, setCurrentPage] = useState(0)
@@ -34,30 +33,5 @@ import Resume from './components/Resume';
   }
   
   export default App;
-//   return (
-//     <>
-//           <Nav
-//           contactSelected={contactSelected}
-//           setContactSelected={setContactSelected}
-//       ></Nav>
-//     <Header>
-//     </Header>
 
-//         <main>
-//         {!contactSelected ? (
-//           <>
-//           <About></About>
-//           <PortfolioCom></PortfolioCom>
-//           <Resume></Resume>
-//           </>
-//         ) : (
-//             <ContactForm></ContactForm>
-//           )}
-//           <div>
-//           <Footer ></Footer>
-//           </div>
-//         </main> 
-//     </>
-//   );
-// }
 
