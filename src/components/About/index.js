@@ -1,11 +1,21 @@
 import React from 'react';
 import Photo from '../../assets/photo/portfolio.jpg'
 import '../../index.css'
+import {BsArrowDownCircle} from 'react-icons/bs'
+
 
 
 function About() {
 
   return (
+  <>
+    <header id="header" className="hero">
+    <p className="hero-intro">Hi, I&rsquo;m</p> 
+            <h1 className="hero-heading">V!</h1>
+            <a href="#abtSec">
+                <BsArrowDownCircle className='headerIcon'/> </a>
+        </header>
+       
     <section id="abtSec" className='aboutSec'>
             <div className='headshot'>
             <img src={Photo} alt='V headshot'></img>
@@ -20,6 +30,8 @@ function About() {
             </p>
             </div>
     </section>
+  </>
+
   )
 }
 
