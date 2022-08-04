@@ -67,6 +67,7 @@ function ContactForm() {
             size="lg"
             type="submit">Submit</Button>
           </form>
+          <h3>Connect with me:</h3>
         </section>
         );
 
