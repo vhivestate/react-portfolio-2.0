@@ -156,6 +156,22 @@ nav  li {
 font-size: 35px;
 font-weight: bold;
 }
+.frontend {
+  background-image: url(./assets/photo/think.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  max-width: 100;
+}
+.backend {
+  background-image: url(./assets/photo/bugs.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  max-width: 100;
+}
+.download {
+  text-align: center;
+  font-size: 25px;
+}
 
 /* HEADER DIV */
 .headerIcon {

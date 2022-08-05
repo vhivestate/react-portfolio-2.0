@@ -1,12 +1,8 @@
-// import { render } from '@testing-library/react';
 
 import ResumePdf from '../../assets/vhivestate-resume.pdf'
-// import ResumePng from '../../assets/resume.png'
-
 import React from 'react';
-// import { validateEmail } from '../../utils/helper';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Button } from 'reactstrap';
+import {FaDownload} from 'react-icons/fa';
 
 
 
@@ -34,14 +30,15 @@ function Resume() {
         <p>- Event Bubbling, Shadow DOM</p>
         </div>
 
-        <div className='backend'>
+
         <h1>Backend:</h1>
+        <div className='backend'>
         <li>Python</li>
         <li>Node.js</li>
         <li>Frameworks</li>
         <p>- Express.js</p>
         <p>- React.js</p>
-        <p>- JQuery</p>
+
         <p>- BootStrap</p>
         <li>Database</li>
         <p>- MongoDB</p>
@@ -50,7 +47,6 @@ function Resume() {
         <li>API</li>
         <p>- REST</p>
         <p>- JSON</p>
-        <p>- SOAP</p>
         </div>
       </ul>
     
@@ -59,9 +55,12 @@ function Resume() {
       
       <div>
       </div>
+      <div className='download'>
         <a href={ResumePdf} download="vhivestate-resume.pdf">
+        <FaDownload/>
             download resume 
         </a>
+        </div>
       </section>
     );
   }
