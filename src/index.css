@@ -9,11 +9,6 @@ code {
   font-family: 'Playfair Display', serif;
 }
 
-/* .flex-row {
-padding: 20px;
-background-color: black;
-
-} */
 
 a:link { text-decoration: none; }
 
@@ -106,7 +101,6 @@ nav  li {
 }
 
 .bio {
-  /* text-align: center; */
   color: #2c2a2a;
   max-width: 70%;
   padding-bottom: 30px;
@@ -141,6 +135,26 @@ nav  li {
 #portfolio img {
   border: 3px solid #1b1c1e;
   color: #1b1c1e;
+}
+/* resume styling  */
+#titleSk {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+#resume {
+  padding-top: 50px;
+  font-family: 'Playfair Display', serif;
+
+}
+#resume li {
+    list-style-type: circle;
+    font-size: 20px;
+}
+
+#resume h1 {
+font-size: 35px;
+font-weight: bold;
 }
 
 /* HEADER DIV */
