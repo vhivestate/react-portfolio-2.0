@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helper';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'reactstrap';
+import mailPng from '../../assets/photo/email.png'
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -41,9 +42,9 @@ function ContactForm() {
       }
 
     return (
-        <section className='contactForm'>
-          <h1>Email Me:</h1>
-          <form action="" id="contact-form" onSubmit={handleSubmit}>
+        <section>
+          <h1 className='mail'>Email Me:</h1>
+          <form className='contactForm' action="" id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name"></label>
               <input type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name"/>
@@ -62,12 +63,12 @@ function ContactForm() {
                 </div>
                 )}
             <Button     
-            color="success"
-            outline
+            color="warning"
             size="lg"
             type="submit">Submit</Button>
           </form>
-          <h3>Connect with me:</h3>
+          {/* <img className='pngMail' src={mailPng}></img> */}
+          <h3 className='connect'>Connect with me:</h3>
         </section>
         );
 
