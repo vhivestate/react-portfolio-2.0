@@ -16,8 +16,8 @@ MIT
 ## Contributing 
 I got help from my tutor and TA's to help complete this as well as used npg's from Undraw.co.
 
-## Live Link
-[]()
+## Github Repository Link
+[link](https://github.com/vhivestate/react-portfolio-2.0)
 
 ## Screenshot
 ![Portfolio-Screenshot](./src/assets/screenshot.png)
