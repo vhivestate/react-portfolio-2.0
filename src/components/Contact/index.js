@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helper';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'reactstrap';
-import mailPng from '../../assets/photo/email.png'
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
