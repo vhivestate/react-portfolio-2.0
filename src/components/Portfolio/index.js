@@ -5,6 +5,7 @@ import Weather from '../../assets/photo/weather.png'
 import Appt from '../../assets/photo/appt-booker.png'
 import Team from '../../assets/photo/team.png'
 import '../../index.css'
+import Trim from '../../assets/photo/trim.png'
 
 function Portfolio() {
   const QuizLive = <a href="https://vhivestate.github.io/Code-Quiz/"> JavaScript Timed Quiz </a>;
@@ -12,12 +13,17 @@ function Portfolio() {
   const WeatherLive = <a href="https://vhivestate.github.io/Weather-Dashboard/"> Weather App </a>;
   const ApptLive = <a href="https://vhivestate.github.io/Appt-Booker/"> Tattoo Appointment Booker </a>;
   const TeamLive = <a href="https://vhivestate.github.io/team-pro-generator/"> Team Profile Generator </a>;
+  const TrimLive = <a href="https://trim-down.herokuapp.com//"> Expense Tracker </a>;
+
+
 
   const QuizRepo = <a href="https://github.com/vhivestate/Code-Quiz"> Repository Link </a>;
   const ScheduleRepo = <a href="https://github.com/vhivestate/Work-Scheduler">Repository Link</a>;
   const WeatherRepo = <a href="https://github.com/vhivestate/Weather-Dashboard"> Repository Link </a>;
   const AttpRepo = <a href="https://github.com/vhivestate/Appt-Booker"> Repository Link </a>;
   const TeamRepo = <a href="https://github.com/vhivestate/team-pro-generator"> Repository Link </a>;
+  const TrimRepo = <a href="https://vhivestate.github.io/Code-Quiz/"> Repo link </a>;
+
 
 
 
@@ -57,6 +63,13 @@ function Portfolio() {
       <h3>{TeamLive}</h3>
       <img src={Team} alt=''></img>
       <h5>{TeamRepo}</h5>
+
+      </div>
+
+      <div>
+      <h3>{TrimLive}</h3>
+      <img src={Trim} alt=''></img>
+      <h5>{TrimRepo}</h5>
 
       </div>
       </div>
